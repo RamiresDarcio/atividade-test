@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#sonic{
+width: 25%;
+height: 50px;
+background-color: blue; 
+margin: 0px;
+ padding: 0px;
+ border: 0px;
+margin-top:5px;
+box-sizing: border-box;
+font-size: 20px;
+color: blanchedalmond;
+
+}
+
+.L{
+    float: left;
+}
+.R{
+    float: right;
+}
+#shadow{
+    
+    width: 73%;
+    height: 50px;
+    background-color: black;
+    margin:0px;
+    padding: 0px;
+    border:0px;
+    margin-right: 0.3%;
+    margin-top: 5px;
+    font-size: 20px;
+    color: red;
+    box-sizing: border-box;
+
+    
+
+}

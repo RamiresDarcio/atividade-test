@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.diretorio{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+
+}
+.hatsune-miku{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    grid-row: 2;
+    grid-column:3;
+
+}
+.nagatoro{
+    background-color: orange ;
+    text-align: center;
+    padding: 20px;
+    grid-row: 1;
+    grid-column: 3;
+
+}
+.komi-san{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    grid-column: 3;
+    grid-row: 3;
+}
+.felicia{
+background-color: aliceblue;
+text-align: center;
+padding: 20px;
+grid-row: auto;
+grid-column: auto;
+}
+.morrigan{
+    background-color: blueviolet;
+    padding: 20px;
+    grid-column: auto;
+    grid-row: auto;
+
+}
+.tsunade-senju{
+background-color: green;
+padding: 20px;
+grid-column: auto;
+grid-row: auto;
+}
+.chun-li{
+    background-color: darkblue;
+
+}
+.juri{
+    background-color: pink;
+
+}
+.cerebella{
+    background-color: orangered;
+}
