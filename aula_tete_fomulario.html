@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 style="text-align: center;">Escola Virtual </h1>
+    <h2 style="text-align: center;">Fomulário de Pré-Matricular</h2>
+
+    <form action="dados_do_forms" method="post">
+        <!---->
+        <fieldset>
+        <label for="">nome do aluno </label>
+        <input type="text" placeholder="ex:Tristan nato " required>
+        <br> <br>
+        <label for="">data de nascimentor dd/mmm/aaaa</label>
+        <input type="date" required>
+        <br> 
+        <label for="">Nome da mãe</label>
+        <input type="text" placeholder="meliodas silvar" readonly>
+        <br>
+        <label for="">nome do pai</label>
+        <input type="text" placeholder="elizabelt oliveira" readonly>
+        <br>
+        <label for="">DDD</label>
+        <input type="text" maxlength="2" readonly>
+        <label for="">Tele </label>
+        <input type="tel" maxlength="10" placeholder=9851002345 readonly>
+        <label for="">Ramal</label>
+        <input type="number">
+        <br>
+        <label for="">E-mail</label>
+        <input type="email" placeholder="conta@gmail"readonly>
+        </fieldset>
+        <fieldset>
+            <legend> informação de matricular</legend>
+            <div id="div-serie">
+<select name="" id="">
+    <label for="">serie</label><br>
+    <option value="">selecione um</option>
+    <option value="">Pre-escolar</option>
+    <option value="">escolar</option>
+</select>
+            </div>
+            <div id="div-turno" >
+                <label for="">turno</label><br>
+<input type="radio" name="turno" value="manha">Manhã<br>
+<input type="radio" name="turno" value="Tarde">Tarde<br>
+            </div>
+            <div id="div-atv-extra" >
+        <label for="">ativida-estracurriculare</label><br>
+    <input type="checkbox" name="ativida" value="info">informaticar<br>
+    <input type="checkbox" name="ativida" value="music">musica<br>
+    <input type="checkbox" name="ativida" value="balt">ballet<br>
+    <input type="checkbox" name="ativida" value="pint" >pintura <br>
+    <input type="checkbox" name="ativida" value="judo">judo<br>
+    <input type="checkbox" name="ativida" value="fute">futebool<br>
+            </div>
+        </fieldset>
+        <div id="div-booes">
+            <input type="submit" value="enviar fomulario">
+            <input type="reset" value="limpa campos">
+        </div>
+    </form>
+</body>
+</html>
